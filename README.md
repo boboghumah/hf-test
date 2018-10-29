@@ -47,4 +47,5 @@ You can check this by running `java -version` from the command line.
 + Navigate to the project from your command line
 + Enter `mvn install` 
 + Enter `mvn clean test`
+
 ###Note : The test will fail because the `AddCountryTest` is expecting a `204` but got a `200`. change the expected result to `200` for all the test to pass
